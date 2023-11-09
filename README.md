@@ -1,3 +1,5 @@
+NOTE: `HEAD` now contains a working demonstration, showing how to properly link to WASI. You can switch between the broken and working examples by toggling commits
+
 ## Steps to repro
 
 Build the lib:

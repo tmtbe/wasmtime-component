@@ -22,6 +22,6 @@ struct MyHost;
 
 impl Guest for MyHost {
     fn greet() {
-        println!("Hello, world!");
+        println!("Hello {}!", name());
     }
 }

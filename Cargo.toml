@@ -13,3 +13,4 @@ wit-bindgen = { git = "https://github.com/bytecodealliance/wit-bindgen", version
 
 [dev-dependencies]
 wasmtime = { version = "14.0.4", features = ["component-model"] }
+wasmtime-wasi = "14.0.4"
