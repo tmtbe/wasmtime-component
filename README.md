@@ -21,13 +21,3 @@ Run the example:
 ```
 cargo run --example hello
 ```
-
-You should run into the following error when instantating the module:
-
-```
-Error: import `wasi:io/streams@0.2.0-rc-2023-10-18` has the wrong type
-
-Caused by:
-    0: instance export `output-stream` has the wrong type
-    1: expected resource found nothing
-```
